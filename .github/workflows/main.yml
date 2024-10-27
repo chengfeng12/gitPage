@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: '18.x' # node版本号
       - name: Install dependencies
-        run: 1npm install
+        run: npm install
       - name: Build
         run: npm run build-only
       - name: Setup Pages
