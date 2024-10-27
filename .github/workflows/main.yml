@@ -35,9 +35,9 @@ jobs:
         with:
           node-version: '18.x' # node版本号
       - name: Install dependencies
-        run: npm install
+        run: 1npm install
       - name: Build
-        run: npm run build
+        run: npm run build-only
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
